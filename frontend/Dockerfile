@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:20.5.0-slim
 
 WORKDIR /app
 env NODE_OPTIONS=--openssl-legacy-provider
